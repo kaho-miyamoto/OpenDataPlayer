@@ -1,0 +1,111 @@
+
+Frame "四国" {
+	Version 50463 
+	BGC 0 0 0 115  
+	fOADevice { "GRID-EX32HD" }
+	Layer "レイヤー1" {
+		Image "イメージ" {
+			877 483 166 114  CC 
+			Name "sikoku.png" 0 
+			ExpandForDevice 
+			Offset ( 0 ) ( 0 ) 
+			Resize byRate 4 
+		} 
+		Group {
+			Board "サンプル" {
+				496 288 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				503 373 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 39 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "愛媛" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				448 560 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				455 645 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 40 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "高知" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				1148 676 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				1155 761 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 37 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "徳島" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				1180 406 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				1187 491 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 38 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "香川" ) , L/U31310d)" 
+			} 
+		} 
+		StringBox {
+			205 104 354 124  H CL T 0 
+			Style "LSNマール体" 
+			Size 40 100 
+			Color { 255 255 255 255   AntiAlias 2 }
+			Effect {
+				Edge {
+					3 
+					Color { 0 0 0 255  }
+				}
+			}
+			Proportional 
+			"新型コロナウイルス\n" 
+			"新規陽性者数\n" 
+			"\(T( "コロナの情報" ) C( "日付" ) , Ss)" 
+		} 
+	} 
+} 

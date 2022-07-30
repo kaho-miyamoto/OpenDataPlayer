@@ -1,0 +1,131 @@
+
+Frame "中国" {
+	Version 50463 
+	BGC 0 0 0 115  
+	fOADevice { "GRID-EX32HD" }
+	Layer "レイヤー1" {
+		Image "イメージ" {
+			887 468 146 144  CC 
+			Name "chugoku.png" 0 
+			ExpandForDevice 
+			Offset ( 0 ) ( 0 ) 
+			Resize byRate 4 
+		} 
+		Group {
+			Board "サンプル" {
+				1166 596 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				1173 681 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 34 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "岡山" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				1164 368 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				1171 453 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 32 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "鳥取" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				822 244 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				829 329 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 33 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "島根" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				824 724 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				831 809 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 35 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "広島" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				476 476 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				483 561 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 36 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "山口" ) , L/U31310d)" 
+			} 
+		} 
+		StringBox {
+			205 104 354 124  H CL T 0 
+			Style "LSNマール体" 
+			Size 40 100 
+			Color { 255 255 255 255   AntiAlias 2 }
+			Effect {
+				Edge {
+					3 
+					Color { 0 0 0 255  }
+				}
+			}
+			Proportional 
+			"新型コロナウイルス\n" 
+			"新規陽性者数\n" 
+			"\(T( "コロナの情報" ) C( "日付" ) , Ss)" 
+		} 
+	} 
+} 

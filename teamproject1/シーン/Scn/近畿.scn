@@ -1,0 +1,175 @@
+
+Frame "近畿" {
+	Version 50463 
+	BGC 0 0 0 115  
+	fOADevice { "GRID-EX32HD" }
+	Layer "レイヤー1" {
+		Image "イメージ" {
+			868 413 184 254  CC 
+			Name "kinki.png" 0 
+			ExpandForDevice 
+			Offset ( 0 ) ( 0 ) 
+			Resize byRate 3 
+		} 
+		Group {
+			Board "サンプル" {
+				478 286 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				485 371 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 29 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "兵庫" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				592 560 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				599 645 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 28 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "大阪" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				1168 686 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				1175 771 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 25 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "三重" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				1176 286 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				1183 371 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 26 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "滋賀" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				888 150 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				895 235 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 27 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "京都" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				938 450 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				945 535 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 30 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "奈良" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Board "サンプル" {
+				686 852 280 117  
+				Color { 255 22 40 255   AntiAlias 2 }
+			}
+			String {
+				693 937 264  H CL 
+				Style "LSNマール体" 
+				Size 74 100 
+				Color { 255 255 255 255   AntiAlias 2 }
+				Effect {
+					Edge {
+						3 
+						Color { 0 0 0 255  }
+					}
+				}
+				Proportional 
+				"\(T( "都道府県情報" ) R( 31 ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) C( "和歌山" ) , L/U31310d)" 
+			} 
+		} 
+		Group {
+			Group {
+				StringBox {
+					205 104 354 124  H CL T 0 
+					Style "LSNマール体" 
+					Size 40 100 
+					Color { 255 255 255 255   AntiAlias 2 }
+					Effect {
+						Edge {
+							3 
+							Color { 0 0 0 255  }
+						}
+					}
+					Proportional 
+					"新型コロナウイルス\n" 
+					"新規陽性者数\n" 
+					"\(T( "コロナの情報" ) C( "日付" ) , Ss)" 
+				} 
+			} 
+		} 
+	} 
+} 

@@ -1,0 +1,47 @@
+
+Frame "日本地図" {
+	Version 50463 
+	fVideoAtr { Ortho3D }
+	fOADevice { "GRID-EX32HD" }
+	Layer "レイヤー1" {
+		Image "イメージ" {
+			385 52 1150 976  CC 
+			Name C( "file name" ) 0 
+			ExpandForDevice 
+			Offset ( 0 ) ( 0 ) 
+			Resize byRect T( "都道府県情報" ) R( V0 ) 
+		} 
+		Form "フォームX" {
+			RectRange {
+				( C( "X" ) ) ( 0 ) 0 0 1 1  ( 1920 ) 1920 0 1 1  
+			}  HN T( "都道府県情報" ) R( V0 ) 
+			Group {
+				Form "フォームY" {
+					RectRange {
+						( C( "Y" ) ) ( 0 ) 0 0 1 1  ( 1080 ) 0 1080 1 1  
+					}  NH 
+					Group {
+						Board "サンプル" {
+							185 -61 280 117  
+							Color { 255 22 40 255   AntiAlias 2 }
+						}
+						String {
+							202 30 245  H HL 
+							Style "LSNマール体" 
+							Size 92 100 
+							Color { 0 0 0 255   AntiAlias 2 }
+							Effect {
+								Edge {
+									3 
+									Color { 255 255 0 255   BlendNamKey }
+								}
+							}
+							Proportional 
+							"\(T( "都道府県情報" ) C( "name" ) , Ss) : ,,\(T( "コロナの情報" ) R( V1 ) C( V0 ) , L/U31310d)" 
+						} 
+					} 
+				} 
+			} 
+		} 
+	} 
+} 
