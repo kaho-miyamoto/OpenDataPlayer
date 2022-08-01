@@ -10,3 +10,15 @@ C:\Users\abe\新人研修\チーム開発\OpendataPlayer\teamproject1\obj\x64\De
 C:\Users\abe\新人研修\チーム開発\OpendataPlayer\teamproject1\obj\x64\Debug\teamproject1.exe
 C:\Users\abe\新人研修\チーム開発\OpendataPlayer\teamproject1\obj\x64\Debug\teamproject1.pdb
 C:\Users\abe\新人研修\チーム開発\OpendataPlayer\teamproject1\obj\x64\Debug\teamproject1.csproj.AssemblyReference.cache
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\bin\x64\Debug\teamproject1.exe.config
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\bin\x64\Debug\teamproject1.exe
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\bin\x64\Debug\teamproject1.pdb
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\obj\x64\Debug\teamproject1.csproj.AssemblyReference.cache
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\obj\x64\Debug\Interop.PRISMPLAYERLib.dll
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\obj\x64\Debug\teamproject1.csproj.ResolveComReference.cache
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\obj\x64\Debug\teamproject1.OpendataPlayer.resources
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\obj\x64\Debug\teamproject1.Properties.Resources.resources
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\obj\x64\Debug\teamproject1.csproj.GenerateResource.cache
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\obj\x64\Debug\teamproject1.csproj.CoreCompileInputs.cache
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\obj\x64\Debug\teamproject1.exe
+C:\Users\abe\新人研修\OpendataPlayer\teamproject1\obj\x64\Debug\teamproject1.pdb
